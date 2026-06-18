@@ -1,4 +1,4 @@
-const CACHE = 'ces-study-v4';
+const CACHE = 'ces-study-v5';
 const ASSETS = [
   './',
   './index.html',
