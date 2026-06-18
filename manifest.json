@@ -2,7 +2,7 @@
   "name": "CES 中一期末考試溫習教材",
   "short_name": "CES溫習",
   "description": "國民、經濟與社會科 —— 中一期末考試溫習教材",
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#f9fafb",
   "theme_color": "#134e4a",

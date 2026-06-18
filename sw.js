@@ -1,11 +1,11 @@
 const CACHE = 'ces-study-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/styles/main.css',
-  '/units/unit1-2.html',
-  '/units/unit1-4.html'
+  './',
+  './index.html',
+  './manifest.json',
+  './styles/main.css',
+  './units/unit1-2.html',
+  './units/unit1-4.html'
 ];
 
 self.addEventListener('install', e => {
@@ -33,7 +33,7 @@ self.addEventListener('fetch', e => {
         const copy = res.clone();
         caches.open(CACHE).then(cache => cache.put(request, copy));
         return res;
-      }).catch(() => caches.match('/index.html'))
+      }).catch(() => caches.match('./index.html'))
     )
   );
 });
