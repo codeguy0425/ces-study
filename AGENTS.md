@@ -42,5 +42,6 @@ Content-only repository (no code). All material is in Traditional Chinese (香�
 1. Edit source markdown in `book/`
 2. Rebuild corresponding HTML in `units/` (markup + CSS class conventions)
 3. To add a new unit: add source `.md` to `book/`, create HTML in `units/`, add a `unit-card` on `index.html`, add a nav link to all HTML files
+4. **After any file change**, bump the cache version in `sw.js` (e.g. `ces-study-v7` → `ces-study-v8`) so the service worker refreshes users' cached assets on next visit
 
 No automated tooling, tests, or build steps. Edit files directly.
