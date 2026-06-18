@@ -8,7 +8,8 @@ const ASSETS = [
   './units/unit1-3.html',
   './units/unit1-4.html',
   './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icons/icon-512.png',
+  './units/5-5.png'
 ];
 
 self.addEventListener('install', e => {
