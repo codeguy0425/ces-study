@@ -36,6 +36,8 @@ body {
 a { color: var(--teal-700); text-decoration: none; }
 a:hover { color: var(--teal-600); text-decoration: underline; }
 
+[id] { scroll-margin-top: 4rem; }
+
 /* ── Nav ── */
 .top-nav {
   background: var(--teal-900);
