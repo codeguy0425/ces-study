@@ -202,39 +202,46 @@ h2 {
 h3 {
   font-size: 1.15rem;
   color: var(--teal-700);
-  margin: 1.5rem 0 .75rem;
+  margin: 2.5rem 0 1rem;
+  padding: .4rem 0 .4rem .75rem;
+  border-top: 2px solid var(--teal-100);
+  border-left: 4px solid var(--teal-500);
 }
+h3:first-of-type { margin-top: 0; }
 
 h4 {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--gray-700);
-  margin: 1rem 0 .5rem;
+  margin: 1.25rem 0 .5rem;
+  padding-left: .75rem;
+  border-left: 3px solid var(--warm-500);
 }
 
 blockquote {
   background: var(--teal-50);
   border-left: 4px solid var(--teal-500);
   padding: .75rem 1rem;
-  margin: 1rem 0;
+  margin: 1.25rem 0;
   border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: .92rem;
   color: var(--gray-700);
 }
 blockquote strong { color: var(--teal-900); }
 
-p { margin-bottom: .75rem; }
+p { margin-bottom: 1rem; }
 
-ul, ol { margin: .5rem 0 .75rem 1.5rem; }
-li { margin-bottom: .3rem; }
+ul, ol { margin: .5rem 0 1rem 1.5rem; }
+li { margin-bottom: .5rem; }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0;
+  margin: 1.25rem 0;
   font-size: .9rem;
 }
 th, td {
   border: 1px solid var(--gray-200);
-  padding: .6rem .75rem;
+  padding: .75rem .85rem;
   text-align: left;
   vertical-align: top;
 }
