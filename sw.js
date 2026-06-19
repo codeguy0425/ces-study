@@ -19,7 +19,8 @@ const ASSETS = [
   './icons/icon-192.png',
   './icons/icon-512.png',
   './5-5/5-5.png',
-  './book/ces_unit 1.4_2.2.png'
+  './book/ces_unit 1.4_2.2.png',
+  './units/ces_unit1.4_2.2.png'
 ];
 
 self.addEventListener('install', e => {
