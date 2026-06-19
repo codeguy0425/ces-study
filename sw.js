@@ -21,7 +21,8 @@ const ASSETS = [
   './5-5/5-5.png',
   './book/ces_unit 1.4_2.2.png',
   './units/ces_unit1.4_2.2.png',
-  './units/ces_unit_1.4_1_2_2.3.png'
+  './units/ces_unit_1.4_1_2_2.3.png',
+  './units/cwa_unit_1.4_2_1.png'
 ];
 
 self.addEventListener('install', e => {
