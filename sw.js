@@ -18,7 +18,8 @@ const ASSETS = [
   './units/unit1-4-treaties.html',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './5-5/5-5.png'
+  './5-5/5-5.png',
+  './book/ces_unit 1.4_2.2.png'
 ];
 
 self.addEventListener('install', e => {
